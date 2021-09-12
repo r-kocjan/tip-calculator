@@ -8,3 +8,7 @@
 .mb-small {
   margin-bottom: 2.5rem;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
