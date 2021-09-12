@@ -12,7 +12,6 @@ This is a solution to the [Tip calculator app challenge on Frontend Mentor](http
 
 ## Overview
 
-culate the correct tip and total cost of the bill per person
 
 ### Screenshot
 ![pic1](https://user-images.githubusercontent.com/65490113/132989400-2d8aaa3f-5824-4fc0-88cf-18188522c35e.png)
