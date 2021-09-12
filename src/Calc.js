@@ -144,6 +144,10 @@ const Calc = () => {
 
 const Container = styled.div`
   width: 45%;
+
+  @media (max-width: 768px) {
+    width: 100%;
+  }
 `;
 const Name = styled.h1`
   text-align: center;
@@ -152,6 +156,9 @@ const Name = styled.h1`
   font-size: 1.8rem;
   letter-spacing: 0.7rem;
   margin-bottom: 6rem;
+  @media (max-width: 768px) {
+    margin-top: 3rem;
+  }
 `;
 const Calculator = styled.div`
   display: flex;
@@ -161,9 +168,17 @@ const Calculator = styled.div`
   padding: 2rem;
   border-radius: 1.3rem;
 
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
   .left,
   .right {
     width: 50%;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
   }
   .left {
     margin-right: 3rem;
@@ -174,6 +189,10 @@ const Calculator = styled.div`
     color: #fff;
     padding: 3.5rem 2.5rem;
     position: relative;
+
+    @media (max-width: 768px) {
+      height: 280px;
+    }
     div {
       display: flex;
 
@@ -278,6 +297,10 @@ const Grid = styled.div`
   grid-template-columns: repeat(3, 1fr);
   gap: 1.2rem;
   margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
   .percent {
     border: 0;
     padding: 0.9rem;
